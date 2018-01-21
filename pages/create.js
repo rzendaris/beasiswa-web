@@ -1,11 +1,11 @@
 // @flow
 import * as React from 'react';
-import PostList from '../components/PostList';
+import CreatePost from '../components/CreatePost';
 import withData from '../libraries/withData';
 import DefaultCon from '../containers/Default';
 
 export default withData(props => (
-  <DefaultCon {...props}>
-    <PostList />
+  <DefaultCon title="Create Post" {...props}>
+    <CreatePost />
   </DefaultCon>
 ));
