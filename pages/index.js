@@ -3,7 +3,7 @@ import App from '../components/App';
 import withData from '../libraries/withData';
 import { dump } from '../libraries/helpers';
 
-export default withData(props =>
+export default withData(props => (
   <App>
     <Helmet>
       <title>index</title>
@@ -15,4 +15,4 @@ export default withData(props =>
       <pre>{dump(props)}</pre>
     </div>
   </App>
-);
+));
