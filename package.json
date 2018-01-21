@@ -1,0 +1,27 @@
+{
+  "name": "beasiswa-web",
+  "version": "1.0.0",
+  "description": "Stackalterdev Beasiswa Web Interface",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "NODE_ENV=production node server.js",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stackalterdev",
+    "Beasiswa"
+  ],
+  "author": "Rukanda Faridsi <hey@rukanda.xyz>",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.1.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "isomorphic-unfetch": "^2.0.0",
+    "next": "^4.2.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
